@@ -61,6 +61,22 @@ namespace Week5Homework
 
             }
             Console.WriteLine();
+            Console.WriteLine("Exercise 5!");
+            string xLine = "XOXOXOXO";
+            string oLine = "OXOXOXOX";
+            for (int i = 1; i <= 8; i++)
+            {
+                if (i % 2 == 0)
+                {
+                    Console.WriteLine(oLine);
+                }
+                else
+                {
+                    Console.WriteLine(xLine);
+                }
+            }
+
+            Console.WriteLine();
             Console.WriteLine("Press enter to exit.");
             Console.ReadLine();
         }
